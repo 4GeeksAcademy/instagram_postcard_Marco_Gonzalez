@@ -1,83 +1,53 @@
-#post{
-    width: 30%;
-    border: 2px solid black;
-    margin: 3px;
-
-}
-#heading
-{
-
-
-
-      display: flex;
-    align-items: center;
-    gap: 10px;              
-    padding: 8px 12px;     
-    font-family: roboto;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
 }
 
-#heading i{
-        font-size: 2rem;
+body {
+    background-color: #000000;
+}
 
-
+#post {
+    width: 400px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
 }
 
 
-
-p:nth-child(2){
-   
-    margin: 5px;
-    font-weight: bold;
-}
-#title
-{
-    flex-grow: 1;
-    margin: 1rem;
-    
-}
-
-
-#menu{
-    font-size: 2rem;
-}
-
-#img{
-    width: 100%;
- 
-}
-#feed{
-    margin:6px;
-        font-family: roboto;
-
-}
-#comment
-{
-        width: 100%;
-    margin: 10px;
-        font-family: roboto;
-
-}
-#icons{
-    
+#heading {
     display: flex;
-    margin: 15px;
+    align-items: center;
+    padding: 10px;
 }
 
+#title {
+    margin-left: 10px;
+}
+
+#menu {
+    margin-left: auto; 
+    margin-right: 5px;
+}
+
+#img img {
+    width: 100%;
+    height: auto;
+}
 
 
 #icons {
-    font-size: 25px;
+    padding: 12px;
+    font-size: 22px;
     display: flex;
-    flex-grow: .5;
-    
-
+    gap: 12px; 
 }
 
-#icons i:nth-child(4) {
-    flex-grow: 1; 
-    text-align: right; 
+#icons #i2 {
+    margin-left: auto;
 }
 
-
-
-
+#feed, #comment {
+    padding: 12px;
+}
